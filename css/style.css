@@ -1,0 +1,53 @@
+﻿html, body
+{
+    background:url('../images/bgMaingray.png') repeat;
+}
+
+.box-1
+{
+    width:333px;
+    height:166px;
+    overflow:hidden;
+}
+
+.insider_box
+{
+  width:1000px; 
+}
+
+ul.box-2
+{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+
+ul.box-2 li
+{
+    float:left;
+}
+
+.clear
+{
+    clear:both;
+}
+
+
+.slideUpContainer
+{
+    width:166px;
+    height:166px;
+    overflow:hidden;
+}
+
+ul.box-3
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+h4
+{
+    color:#ffffff;
+}

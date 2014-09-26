@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Slide Function</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+    <script src="js/SlideRightContainer.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#slideTough").ShowLeftContent({
+                datawidth : 333,
+            });
+
+            $("#slideUpTough").ShowUpContent({
+                dataheight: 166
+            });
+        });
+    </script>
+</head>
+<body>
+    
+    <h4>Slide Left Content</h4>
+    <div class="box-1">
+        <div class="insider_box">
+            <ul class="box-2" id="slideTough">
+                <li><img src="images/5.png" height="166" width="333" alt="" /></li>
+                <li><img src="images/6.jpg" height="166" width="333" alt="" /></li>
+            </ul>
+            <div class="clear"></div>
+        </div><!-- End of insider_box -->
+    </div><!-- box-1 -->
+
+    <h4>Slide Up Content</h4>
+
+    <div class="slideUpContainer">
+        <div class="insider_box_two">
+             <ul class="box-3" id="slideUpTough">
+                <li><img src="images/image.png" height="166" width="166" alt="" /></li>
+                <li><img src="images/imageh.png" height="166" width="166" alt="" /></li>
+            </ul>
+        </div>
+    </div><!-- End of slideUpContainer -->
+
+</body>
+</html>
