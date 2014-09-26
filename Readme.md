@@ -10,4 +10,14 @@ Slider Content is a jQuery Plugin that shows the left and right content once the
     <script src="js/SlideRightContainer.js" type="text/javascript"></script>
 ```
 
-2.
+2. Add the following code:
+
+```
+$(document).ready(function () {
+    $("#slideTough").ShowLeftContent({
+        datawidth : 333,
+    });
+});
+```
+
+This is for the sliding starting from the left.
