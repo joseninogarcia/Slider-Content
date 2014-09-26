@@ -71,6 +71,7 @@ As you noticed, a new method was added to the document. That is for the sliding 
 | API NAME      | Description   |
 | ------------- |:-------------:|
 | datawidth     | This property is valid only for the Slider Left Content. To make sure the content that the javascript trying to read will the same as you are customizing. |
+| dataheight     | This property is valid only for the Slider Top Content. To make sure the content that the javascript trying to read will the same as you are customizing. |
 
 
 ###Version
